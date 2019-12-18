@@ -28,7 +28,7 @@
   --color-2-6:#f51714;
 
   --font:'custom-font', sans-serif;
-  --color:#ff4500;
+  --color:hsl(180, 100%, 20%);
 }
  
 /* 
@@ -46,10 +46,10 @@
     0 0.275rem 1.25rem -0.0625rem rgba(0, 0, 0, 0.05);
 }
 .btn-shadow-1 {
-  box-shadow: 0 0.5rem 1.125rem -0.5rem #2138c9;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem #008080;
 }
 .btn-shadow-primary:hover{
-  box-shadow: 0 0.5rem 1.125rem -0.5rem #2138c9;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem #008080;
   transform: translate(0,-2px);
   -webkit-transform: translate(0,-2px);
   -moz-transform: translate(0,-2px);
@@ -66,21 +66,21 @@
 }
 
 .btn-primary{
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #008080;
+  border-color: #008080;
 }
 .btn-primary:hover{
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: hsl(180, 100%, 20%);
+  border-color: hsl(180, 100%, 20%);
 }
 .btn-outline-primary{
-  border-color:#007bff !important;
-  color: #007bff;
+  border-color:#008080 !important;
+  color: hsl(180, 100%, 15%);
 }
 .btn-outline-primary:hover{
-  background-color: #007bff;
+  background-color: hsl(180, 100%, 15%);
   color: #ffffff;
-  box-shadow: 0 0.5rem 1.125rem -0.5rem #007bff;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem #008080;
   transform: translate(0,-2px);
   -webkit-transform: translate(0,-2px);
   -moz-transform: translate(0,-2px);
@@ -105,7 +105,7 @@
     margin: 1rem;
     font-size: 1rem;
     line-height: 1.5;
-    color:#007bff;
+    color:#008080;
     text-decoration: none;     
     border: 1px solid hsl(var(--hue), 72%, 46%);         
     border-radius: 3px;
@@ -120,14 +120,14 @@
   background-color: hsl(var(--hue), 72%, 36%);
 }
 .btn-pulse:hover {
-  box-shadow: 0 0 0 0.45em transparent;
+  box-shadow: 0 0 0 0.35em transparent;
   animation: btn-pulse 1s infinite;
   -webkit-animation: btn-pulse 1s infinite;
 }
 
 @keyframes btn-pulse {
   from {
-    box-shadow: 0 0 0 0 hsl(211, 100%, 60%);    
+    box-shadow: 0 0 0 0 hsl(180, 100%, 35%);    
   }
 }
 .btn-breach {
@@ -268,7 +268,7 @@ body {
  
 .quote-left{
   font-size: 1rem;
-  color:hsl(211, 100%, 70%);
+  color:#008080;
 }
  
 /* 
@@ -301,7 +301,7 @@ body {
   margin-top: 0.6rem;
 }
 .breadcrumb-item a,.breadcrumb-item, .breadcrumb-item .fa{
-  color: #007bff;
+  color: #008080;
 }
 
 .overlay{
@@ -314,7 +314,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color:rgba(33, 56, 201,0.5);
+  background-color:rgba(0, 128, 128,0.6);
 }
 
 .overlay h1, .overlay h2{
@@ -361,11 +361,11 @@ body {
 } 
 
 .navbar-dark .nav-link:hover{
-  color: #007bff !important;
+  color: #008080 !important;
 }
  
 .navbar-dark .active{
-  color: #007bff !important;
+  color: #008080 !important;
 }      
   .navbar-brand img{
     max-width: 200px;
@@ -389,7 +389,7 @@ body {
   .dropdown-menu .dropdown-item:hover{                  
     background-color: transparent !important;     
     text-decoration: underline;
-    color:hsl(211, 100%, 60%) ; 
+    color:#008080 ; 
     font-size: 1.1rem !important;
   } 
   /* drop down menu width */
@@ -519,13 +519,13 @@ body {
   margin-right: 20px;
   display: flex;     
   align-items: center;
-  color: #f51714;
+  color: hsl(180, 100%, 15%);
 }
 
 .service-highlight{  
 height: 4px;
 width: 30px;
-background-color: #f51714; 
+background-color: hsl(180, 100%, 15%); 
 margin-right: 10px; 
 }
 .capabilities{
@@ -611,10 +611,10 @@ background-color:#f3f7fa;
   text-decoration: none;
 }
 .f-link a:hover{
-color: #ff4500; 
+color: #00b3b3; 
 }
 .f-link a:hover .fas,.f-link a:hover .far{
-  color:var(--color);
+  color:#00b3b3;
   font-size: 1.25rem;
   transition:all 0.2s ease-in;
   -webkit-transition:all 0.2s ease-in;
@@ -628,7 +628,7 @@ color: #ff4500;
   width: 0;
   height: 2px;
   margin-top: 5px;
-  background:var(--color);
+  background:#00b3b3;
   transition: width .3s;
 }
 .f-link a:hover::after {
@@ -776,7 +776,7 @@ color: #ff4500;
 
 }
 .chat-bot .card-header{
-color: #007bff;
+color: #008080;
 }
 .chat-bot .card-footer { 
   position: relative;
@@ -806,7 +806,7 @@ color: #007bff;
 }
 
 .chat-bot .input-group-text {
-  background-color: hsl(211, 100%, 60%);
+  background-color: hsl(180, 100%, 15%);
   border: none;
   outline: none;
   border-radius: 0px;
@@ -830,8 +830,8 @@ color: #007bff;
 }
 
  .bot {
-  border: 2px solid hsl(211, 100%, 60%);
-  background: hsl(211, 100%, 60%);
+  border: 2px solid #008080;
+  background: #008080;
   color: #fff;
   font-size: 25px;
   border-radius: 50%;
@@ -852,8 +852,8 @@ color: #007bff;
   z-index: 99; 
 }
 .bot:hover{
-  border: 2px solid hsl(211, 100%, 50%);
-  background: hsl(211, 100%, 50%);
+  border: 2px solid hsl(180, 100%, 15%);
+  background: hsl(180, 100%, 15%);
   color: #ffffff;
 }
 .chat-bot .reply-messages{
@@ -867,7 +867,7 @@ color: #007bff;
 }
 
 .chat-bot #botReplay{
-  background: hsl(211, 100%, 60%);
+  background: hsl(180, 100%, 25%);
   color: #ffffff;
   box-shadow: 0px 1px 1px 0px #ccc;
   margin: 5px;
